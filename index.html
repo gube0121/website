@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Private Search Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui; margin: 2rem; }
+    input { width: 100%; padding: .6rem; }
+    ul { margin-top: 1rem; }
+    .note { color: #555; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <h1>Private Search</h1>
+  <p class="note">Client-side search. No tracking. No logging.</p>
+
+  <input id="q" placeholder="Search…" autocomplete="off">
+  <ul id="results"></ul>
+
+  <script src="search.js"></script>
+</body>
+</html>
